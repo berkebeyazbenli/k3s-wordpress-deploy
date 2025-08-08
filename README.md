@@ -23,7 +23,7 @@ k3s-wordpress-deploy/
 │ └── deploy.yaml # CI/CD pipeline (Helm deploy)
 ├── wordpress-deploy/
 │ └── values.yaml # WordPress Helm chart için özelleştirilmiş değerler
-└── README.md # Proje açıklaması
+└── README.md
 
 ## ⚙️ Kurulum Adımları
 
