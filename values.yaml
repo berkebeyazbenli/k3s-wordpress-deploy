@@ -1,0 +1,21 @@
+mariadb:
+  enabled: true
+  auth:
+    rootPassword: my-root-password
+    database: wordpress
+    username: wpuser
+    password: wppassword
+
+wordpressUsername: admin
+wordpressPassword: admin123
+wordpressEmail: admin@example.com
+wordpressFirstName: Berke
+wordpressLastName: User
+wordpressBlogName: "My K3s Blog"
+
+service:
+  type: NodePort
+  port: 80
+
+persistence:
+  enabled: false  # VM üzerinde olduğumuzdan dolayı diske yazmaya gerek yok
