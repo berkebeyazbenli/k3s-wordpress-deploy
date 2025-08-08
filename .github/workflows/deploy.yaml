@@ -24,6 +24,6 @@ jobs:
       - name: Deploy WordPress via Helm
         run: |
           helm upgrade --install wordpress oci://registry-1.docker.io/bitnamicharts/wordpress \
-            -f wordpress-deploy/values.yaml \
+            -f k3s-wordpress-deploy/values.yaml \
             --kubeconfig kubeconfig.yaml
 
